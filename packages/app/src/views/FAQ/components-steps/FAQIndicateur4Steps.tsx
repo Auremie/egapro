@@ -28,14 +28,14 @@ function FAQIndicateur4Steps() {
       </FAQStep>
 
       <FAQStep icon={<IconLamp />}>
-        <p>L’indicateur ne peut-être calculé seulement :</p>
+        <p>L’indicateur ne peut pas être calculé :</p>
         <ul css={styles.list}>
           <li>
-            • s'il y a eu des retours de congé maternité (ou adoption) durant
+            • s'il n'y a pas eu des retours de congé maternité (ou adoption) durant
             la période de référence
           </li>
           <li>
-            • s'il y a eu des augmentations (individuelles ou collectives) au
+            • s'il n'y a pas eu des augmentations (individuelles ou collectives)dans l'entreprise au
             cours de ces congés maternité
           </li>
         </ul>
