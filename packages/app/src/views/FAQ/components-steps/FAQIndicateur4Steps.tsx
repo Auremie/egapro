@@ -31,12 +31,12 @@ function FAQIndicateur4Steps() {
         <p>L’indicateur ne peut-être calculé seulement :</p>
         <ul css={styles.list}>
           <li>
-            • si il y a eu des augmentations (individuelles ou collectives) au
-            cours de la periode de référence
+            • s'il y a eu des retours de congé maternité (ou adoption) durant
+            la période de référence
           </li>
           <li>
-            • si il y a eu des retours de congé maternité (ou adoption) durant
-            la période de référence
+            • s'il y a eu des augmentations (individuelles ou collectives) au
+            cours de ces congés maternité
           </li>
         </ul>
       </FAQStep>
